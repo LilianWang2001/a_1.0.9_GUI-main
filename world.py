@@ -253,7 +253,7 @@ class World():
         exec(b)
         #1.0.2更新 变量更新
         if self.dist < Tiger.size+5:
-          if Tiger.probability_tiger>-0.01: 
+          if Tiger.probability_tiger>-0.1: 
             #这个应该是牛（prey）移动到食物坐标，这里的move是原来的随机移动函数，我稍微改了一下，可能还有bug
             #1.0.2更新 变量更新
             self.tiger_d[Tiger] = self.target_prey_pos
